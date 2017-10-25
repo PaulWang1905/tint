@@ -2,14 +2,14 @@ import os
 import time
 #1.The files and directories to be backed up are
 #specified in a list
-source =['/home/paulwang/rot']
+#source =['']
 #Notice we had to use double quotes inside the string
 #for names with space in it.
 
 #2.The backup must be stored in a 
 #main backup directory
 #Example on Linux:
-target_dir = '/home/paulwang/backups'
+#target_dir = ''
 
 #Create target directory if it is not present
 if not os.path.exists(target_dir):
