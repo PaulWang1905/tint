@@ -1,11 +1,6 @@
-n = 1000
-a = list(range(n))
-b = dict.fromkeys(range(n))
-for i in range(1000):
-    i in a
-    i in b
 def o_one(items):
-    return 1 # 1 operation so O(1)
+    return 1 
+#1 operation so O(1)
 def o_n(items):
     total = 0
     # Walks through all items once so O(n)
