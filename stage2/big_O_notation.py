@@ -19,9 +19,9 @@ def o_n_squared(items):
 
 n = 10
 items = range(n)
-k = o_one(items)
-i = o_n(items)
-j = o_n_squared(items)
-print(k)
-print(i)
-print(j)
+one_one = o_one(items)
+one_n = o_n(items)
+one_n_squared = o_n_squared(items)
+print(one_one)
+print(one_n)
+print(one_n_squared)
