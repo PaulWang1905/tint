@@ -15,12 +15,12 @@ for line in handle :
     if line.startswith('From '):
         lst = line.split()
         book[lst[1]] = book.get(lst[1],0) + 1
-big = 0
-bigman = None
+bignumber = 0
+bigpeople = None
 for key in book:
-    if book[key] > big:
-        big = book[key]
-        bigman= key
-print(bigman,big)
+    if book[key] > bignumber:
+        bignumber = book[key]
+        bigpeople= key
+print(bigpeople,bignumber)
 
     
