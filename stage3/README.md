@@ -1,2 +1,2 @@
-#Notes and thoughts about Effective Python
+# Notes and thoughts about Effective Python
 
