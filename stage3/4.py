@@ -13,6 +13,8 @@ print('Red:    %r' % red)
 print('Green:  %r' % green)
 print('Opacity:%r' % opacity)
 
+
+#the better way to do this
 green = my_values.get('green',[''])
 if green[0]:
     green = int(green[0])
