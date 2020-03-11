@@ -8,7 +8,7 @@ def read_data(read_input_note_data):
         note = str(int(note)%12)
         duration = line.strip().split(',')[1]
         note_list.append((note,duration))
-    return note_dict 
+    return note_list 
 
 a = read_data('input.txt')
 print(a)
