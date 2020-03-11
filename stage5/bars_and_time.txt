@@ -1,0 +1,22 @@
+
+whole note = 48
+
+Half note = 24
+
+Dotted quarter note = 18
+
+Quarter note = 12
+ 
+Dotted eighth note = 9
+
+Eighth note = 6
+
+sixteenth note = 3
+
+quater note triplet = 4
+
+eighth note triplet = 2
+
+sixteenth note triplet = 1
+
+
